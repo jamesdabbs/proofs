@@ -1,0 +1,8 @@
+[package]
+name = "pibase"
+version = "0.1"
+lean_version = "3.4.2"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover/mathlib", rev = "8e46fa5a703a9cf833d4cb127bde5344181821d3"}
